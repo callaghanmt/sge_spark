@@ -13,8 +13,9 @@
 #$ -l mem_free=22G,ram=8G,s_rt=0:59:00,h_rt=1:00:00
 ###################################################
 # Fix the SGE environment-handling bug (bash):
-source /usr/share/Modules/init/sh
-export -n -f module
+# The following lines have been commented out
+# source /usr/share/Modules/init/sh
+# export -n -f module
 
 
 # Load the environment modules for this job (the order may be important): 
